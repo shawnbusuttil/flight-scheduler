@@ -1,0 +1,29 @@
+.flight-scheduler {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+
+    text-align: center;
+
+    &-view {
+        display: flex;
+    
+        &-aircrafts {
+            width: 25%;
+            padding: 20px;
+        }
+    
+        &-rotation {
+            width: 50%;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+    
+        &-flights {
+            width: 25%;
+            padding: 20px;
+        }
+    }
+}

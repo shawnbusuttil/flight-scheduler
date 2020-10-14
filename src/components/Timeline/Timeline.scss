@@ -1,0 +1,28 @@
+.timeline {
+    &-labels {
+        width: 100%;
+        display: flex;
+
+        &-start {
+            text-align: start;
+        }
+
+        &-mid {
+            text-align: center;
+        }
+
+        &-end {
+            text-align: right;
+        }
+
+        &-start, &-mid, &-end {
+            width: 33.3%;
+        }
+    }
+
+    &-bar {
+        width: 100%;
+        height: 30px;
+        display: flex;
+    }
+}

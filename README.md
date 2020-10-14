@@ -1,5 +1,16 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Assumptions Made In Project
+
+I loaded a limited amount of flights, page 1 of the response.
+Compromises on time have been made on some styling and responsiveness in favor of business logic.
+
+## Possible Improvments
+Better UX and pagination for flights.
+Response caching.
+More test coverage.
+Flights stored in a map (object) for O(1) retrieval operations instead of using find O(n).
+
 ## Available Scripts
 
 In the project directory, you can run:

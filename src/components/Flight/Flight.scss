@@ -1,0 +1,24 @@
+.flight {
+    display: flex;
+    flex-direction: column;
+
+    &.selectable {
+        cursor: pointer;
+
+        &:hover {
+            background-color: lightgreen;
+        }
+    }
+
+    &.active {
+        background-color: lightgrey;
+    }
+
+    padding: 20px;
+    border-top: 1px solid black;
+
+    &-info {
+        display: flex;
+        justify-content: space-between;
+    }
+}

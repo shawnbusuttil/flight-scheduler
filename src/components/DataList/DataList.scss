@@ -1,0 +1,12 @@
+.list {  
+    &-title {
+        margin: 5px;
+        font-weight: bold;
+    }
+    
+    &-items {
+        height: 80vh;
+        overflow-y: auto;
+        border: 1px solid black;
+    }
+}
